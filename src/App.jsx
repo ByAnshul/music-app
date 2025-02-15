@@ -3,12 +3,12 @@ import "./App.css";
 import Play from "./play";
 
 const songs = [
-  "/audio/Ishq.mp3",
-  "/audio/7-years-.mp3",
-  "/audio/Apna Bana le.mp3",
-  "/audio/Choo Loo.mp3",
-  "/audio/Die with a smile.mp3",
-  "/audio/end-of-beginning.mp3",
+  "audio/Ishq.mp3",
+  "audio/7-years-.mp3",
+  "audio/Apna Bana le.mp3",
+  "audio/Choo Loo.mp3",
+  "audio/Die with a smile.mp3",
+  "audio/end-of-beginning.mp3",
   "/audio/Espresso.mp3",
   "/audio/Hass Hass.mp3",
   "/audio/In Dino.mp3",
