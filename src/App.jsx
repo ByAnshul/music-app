@@ -15,7 +15,6 @@ const songs = [
   "/audio/Kaise Ab Kahein.mp3",
   "/audio/Moral of the Story.mp3",
   "/audio/Sweater Weather.mp3",
-  "/audio/12saal.mp3",
   "/audio/Way down We Go.mp3",
   "/audio/raanjhanaa.mp3"
 ];
@@ -79,8 +78,23 @@ function App() {
   
 
   return (
-    <div style={{ height: "70vh", marginTop: "15vh", marginBottom: "15vh", backgroundColor: "grey", padding: "2rem 4rem", borderRadius: "2rem" }}>
-      <h1 style={{ color: "#001d3d" }}>Music ✌️</h1>
+    <div style={{ 
+      height: "70vh",
+       marginTop: "5vh",
+        marginBottom: "5vh",
+         backgroundColor: "grey ",
+         padding: "2rem 3rem", 
+         borderRadius: "2rem",
+         
+          }}>
+      <h1 style={{
+    color: "#001d3d",
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis"
+}}>
+    Music ✌️
+</h1>
 
       {/* Audio Element */}
       <audio 
@@ -99,8 +113,8 @@ function App() {
         progress={progress}
         handleSeek={handleSeek}
       />
-      
-      <p style={{fontSize:"1.2rem" , color:"white" , fontWeight:"normal" ,marginTop:"2.5rem"}}>Created By Anshul</p>
+            <p style={{fontSize:"1.2rem" , color:"white" , fontWeight:"normal" ,marginTop:"2.5rem" }}>Created By Anshul</p>
+
     </div>
   );
 }
